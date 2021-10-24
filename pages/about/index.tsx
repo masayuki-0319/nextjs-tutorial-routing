@@ -1,4 +1,4 @@
-const about = () => {
+const index = () => {
   return (
     <div>
       <h1>About Page</h1>
@@ -6,4 +6,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default index;
