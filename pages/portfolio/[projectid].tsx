@@ -1,4 +1,11 @@
-const projectid = () => {
+import { useRouter } from 'next/router';
+
+const ProjectId = () => {
+  const router = useRouter();
+
+  console.log(router.pathname);
+  console.log(router.query);
+
   return (
     <div>
       <h1>Portfolio Project Page</h1>
@@ -6,4 +13,4 @@ const projectid = () => {
   );
 };
 
-export default projectid;
+export default ProjectId;
